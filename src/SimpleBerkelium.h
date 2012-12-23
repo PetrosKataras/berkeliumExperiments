@@ -1,3 +1,7 @@
+/* Based on the glut_demo and glut_input examples 
+ * that are provided with the berkelium source code.
+ */
+
 #ifndef _SIMPLE_BERKELIUM_H_
 #define _SIMPLE_BERKELIUM_H_
 
