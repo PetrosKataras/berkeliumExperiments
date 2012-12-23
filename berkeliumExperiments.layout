@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="src/main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="388" topLine="0" />
+	</File>
+	<File name="src/ofxBerkelium.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="427" topLine="0" />
+	</File>
+	<File name="src/ofxBerkelium.h" open="1" top="0" tabpos="2">
+		<Cursor position="972" topLine="23" />
+	</File>
+	<File name="src/ofxBerkeliumUtils.h" open="0" top="0" tabpos="5">
+		<Cursor position="7917" topLine="119" />
+	</File>
+	<File name="src/testApp.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1679" topLine="0" />
+	</File>
+	<File name="src/testApp.h" open="0" top="0" tabpos="4">
+		<Cursor position="393" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
