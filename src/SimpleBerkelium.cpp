@@ -1,7 +1,5 @@
 #include "SimpleBerkelium.h"
 
-static const bool USE_TRANSPARENCY = true;
-
 using namespace Berkelium;
 
 SimpleBerkelium::SimpleBerkelium(int width, int height, bool useTransparency) : w(width), h(height), transparent(useTransparency){

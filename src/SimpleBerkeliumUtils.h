@@ -307,8 +307,7 @@ public:
         );
         if (updated) {
             needs_full_refresh = false;
-            //glutPostRedisplay();
-        }
+           }
     }
 
     virtual void onAddressBarChanged(Berkelium::Window *win, URLString newURL) {
