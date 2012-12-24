@@ -30,12 +30,12 @@
 		<Unit filename="config.make">
 			<Option virtualFolder="build config" />
 		</Unit>
+		<Unit filename="src/SimpleBerkelium.cpp" />
+		<Unit filename="src/SimpleBerkelium.h" />
+		<Unit filename="src/SimpleBerkeliumUtils.h" />
 		<Unit filename="src/main.cpp">
 			<Option virtualFolder="src/" />
 		</Unit>
-		<Unit filename="src/ofxBerkelium.cpp" />
-		<Unit filename="src/ofxBerkelium.h" />
-		<Unit filename="src/ofxBerkeliumUtils.h" />
 		<Unit filename="src/testApp.cpp">
 			<Option virtualFolder="src/" />
 		</Unit>

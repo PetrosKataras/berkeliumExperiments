@@ -1,4 +1,4 @@
-/* Petros Kataras 
+/* Petros Kataras
  * Taken from the demo  Berkelium GLUT Embedding /  glut_util.hpp
  * with glut related function calls removed
  */
@@ -149,11 +149,11 @@ inline bool mapOnPaintToTexture(
             for(; jj < hig && jj >= 0; jj+=inc) {
                 memcpy(
                     outputBuffer + (jj*wid) * kBytesPerPixel,
-//scroll_buffer + (jj*wid * kBytesPerPixel),
+                    //scroll_buffer + (jj*wid * kBytesPerPixel),
                     inputBuffer + (
                         (scrolled_shared_rect.top()+jj)*dest_texture_width
- + scrolled_shared_rect.left()) * kBytesPerPixel,
-                    wid*kBytesPerPixel
+                        + scrolled_shared_rect.left()) * kBytesPerPixel,
+                        wid*kBytesPerPixel
                 );
             }
 

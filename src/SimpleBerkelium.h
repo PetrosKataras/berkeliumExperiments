@@ -1,4 +1,4 @@
-/* Based on the glut_demo and glut_input examples 
+/* Based on the glut_demo and glut_input examples
  * that are provided with the berkelium source code.
  */
 
@@ -41,12 +41,13 @@ class SimpleBerkelium {
         ///text
         void handleText(int key);
 
+
 	private:
+
+        GLTextureWindow* bk_texture_window;
 
         void textEvent(int key);
         void specialTextEvent(int key);
-
-        GLTextureWindow* bk_texture_window;
 
         int w, h;
         bool transparent;
