@@ -4,16 +4,19 @@
 void testApp::setup(){
     ofSetLogLevel(OF_LOG_VERBOSE);
 
-    Berkelium::init( Berkelium::FileString::empty() );
+    ///!! Before doing anything with Berkelium this should be called first !!
+    BerkeliumGlobals::initBerkelium();
 
     browser = new SimpleBerkelium(ofGetWindowWidth(), ofGetWindowHeight(), true);
 
-    browser->loadURL("http://www.google.com/");
+    ///You need to preced the url with the protocol used otherwise you wont see anything...
+    browser->loadURL("http://www.google.com");
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
-    browser->update();
+    ///This is global since its not necessary to be called for each object seperately
+    BerkeliumGlobals::updateBerkelium();
 }
 
 //--------------------------------------------------------------
