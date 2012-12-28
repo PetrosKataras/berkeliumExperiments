@@ -14,7 +14,10 @@
 
 #include "ofMain.h"
 
-
+namespace BerkeliumGlobals{
+    inline void updateBerkelium(){Berkelium::update();}
+    inline void initBerkelium(){Berkelium::init( Berkelium::FileString::empty() );}
+}
 
 using namespace Berkelium;
 
