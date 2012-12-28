@@ -42,6 +42,7 @@
 
 #include "ofMain.h"
 
+///Needed for retrieving glut modifiers
 #include <GL/glut.h>
 
 #define DEBUG_PAINT false
