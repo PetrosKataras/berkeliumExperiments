@@ -16,7 +16,7 @@ USER_CFLAGS = -I ../../libs/berkelium/include
 # for example libraries like:
 # USER_LDFLAGS = libs/libawesomelib.a
 
-USER_LDFLAGS = /usr/local/lib/libberkelium.so
+USER_LDFLAGS = /usr/local/lib/liblibberkelium.so
 
 
 EXCLUDE_FROM_SOURCE="bin,.xcodeproj,obj"
