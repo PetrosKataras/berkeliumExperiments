@@ -15,7 +15,6 @@ void SimpleBerkelium::setup(){
 }
 
 void SimpleBerkelium::update(){
-    Berkelium::update();
 }
 
 void SimpleBerkelium::draw(){
